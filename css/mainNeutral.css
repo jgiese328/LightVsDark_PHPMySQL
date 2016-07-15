@@ -1,0 +1,337 @@
+
+/*Main Header*/
+
+.title {
+	display:inline-block;
+	float: left;
+	padding:0.5em 1em 0 2em;
+	font-weight: 900;
+	font-size: 1.75em;
+}
+
+.linksContainer {
+	float: right;
+	padding-right: 1.2em;
+
+}
+
+.linksContainer ul li {
+	display: inline-block;
+	background-color: black;
+	text-align: right;
+}
+
+.linksContainer a {
+	color:#ADADAD;
+	text-decoration: none;
+	font-weight: 600;
+	padding:.25em .25em !important;
+}
+
+.linksContainer a:visited {color:#ADADAD;}
+.linksContainer a:hover {
+	color:#4E4E4E;
+	text-decoration:underline;
+}
+.linksContainer a:active {color:#ADADAD;}
+
+/*End Main Header*/
+
+
+/*Main CSS -- expands to other pages */
+
+body {
+	background-color: #5B8CC3;
+	color:black;
+	font-family: 'Fjord One', serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+header {
+	color:white;
+	background-color:black;
+    position: fixed;
+    height: 4em;
+    z-index: 9999;
+    width: 100%;
+}
+
+footer {
+	color:white;
+	background-color:black;
+	margin-top:2em;
+	padding-bottom:4em;
+    height: .2em;
+    width: 100%;
+}
+
+.footer {
+	display:inline-block;
+	float: right;
+	padding: 1em 2em 0 0;
+}
+.footerCopy {
+	display:inline-block;
+	float: left;
+	padding:1.3em 1em 0 2em;
+	font-weight: 900;
+	font-size: 1.1em;
+}
+
+h1 {
+	font-size: 2.5em;
+	color:white;
+	text-shadow: -2px -2px black;
+	text-align:center;
+}
+
+h2 {
+	color: #D4AB6B;
+}
+
+img {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contentContainerAll {
+	background-color:#82ACDB;
+	padding:6em 1em 1em 1em;
+	margin:0 auto 0 auto;
+	max-width: 1080px;
+	clear: both;
+  height: 79%;
+}
+
+.contentContainer {
+	text-align: center;
+}
+
+.source span:hover {
+	font-size: .5em;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.containerLeft {
+	float:left;
+}
+
+.containerRight {
+	float:right;
+}
+
+.containerRight {
+	text-align:left;
+}
+
+.containerLeft img {
+	text-align: left;
+}
+.containerRight img {
+	text-align: right;
+}
+
+.width75 {
+	width:75%;
+}
+
+.width65 {
+	width:65%;
+}
+
+.width50 {
+	width:50%;
+}
+
+.width35 {
+	width:35%;
+}
+.width25 {
+	width:25%;
+}
+
+.right {
+	text-align: right;
+}
+
+.buttonSubmit {
+	margin: 0 2em 0 2em;
+  padding: 0.75em 2.5em;
+  font-size: 1em;
+  background: rgba(255,	255,255,0.5);
+  color: rgba(0,0,0,0.9);
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.2);
+  text-decoration: none;
+  border: solid 1px rgba(20,20,20,1);
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 1px rgba(255,255,255,0.05), inset 0 0 35px rgba(0,0,0,0.6), 0 5px 5px -4px rgba(0,0,0,0.8);
+}
+
+/*Overwriting defaults*/
+.submitDark {
+	background: rgba(51,25,76,0.8);
+	color: white;
+}
+
+/*Overwriting defaults*/
+.submitLight {
+	background: rgba(255,255,102,0.8);
+}
+
+.submitLight:hover {
+  background: rgba(255,255,102,0.3);
+}
+
+.submitDark:hover {
+  background: rgba(51,25,76,0.3);
+}
+
+.buttonSubmit:active {
+  position: relative;
+  top: 3px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.4), inset 0 0 35px rgba(0,0,0,0.6), 0 1px 1px rgba(255,255,255,0.1), inset 0 6px 4px rgba(0,0,0,0.4);
+}
+
+/*End Main CSS*/
+
+
+/* Media -- Responsiveness */
+
+@media (max-width: 1090px) {
+
+	a {
+		padding:0 0;
+	}
+
+	h2{
+		padding-left:0.5em;
+	}
+
+	header {
+		height:6em;
+	}
+	.containerLeft {
+		margin:auto;
+	}
+
+	.containerRight {
+		margin:auto;
+	}
+
+	.linksContainer {
+	float: left;
+	}
+
+	.imgMain {
+    	width: 25em;
+    	height: auto;
+	}
+
+	.imgExercises {
+    	width: 30em;
+	}
+
+	.width25 {
+		width:100%;
+		text-align:center;
+	}
+
+	.width35 {
+		width:100%;
+		text-align:center;
+	}
+
+	.width65 {
+		width:100%;
+		text-align:center;
+	}
+
+	.width75 {
+		width:100%;
+		margin:auto;
+	}
+	.hidden {
+		margin:auto 6.5em;
+	}
+}
+
+@media (max-width: 695px) {
+	header {
+		height:10em;
+	}
+	.contentContainerAll {
+		padding: 9em 1em 1em 1em;
+	}
+	.linksContainer ul li {
+		display: block;
+		text-align: left;
+	}
+	.imgMain {
+    	width: 20em;
+    	height: auto;
+	}
+	.imgExercises {
+    	width: 20em;
+	}
+		.hidden {
+		margin:auto 2em;
+	}
+
+	.buttonSubmit {
+		margin-left:1em;
+	}
+}
+
+@media (max-width: 425px) {
+
+	header {
+		height:11.75em;
+
+	}
+	.contentContainerAll {
+		padding: 11em 1em 1em 1em;
+	}
+
+	.containerLeft {
+		float:none
+	}
+	.containerRight {
+		float:none
+	}
+
+	.imgMain {
+    	width: 10em;
+	}
+
+	.imgExercises {
+    	width: 10em;
+	}
+
+	.hidden {
+		margin:auto 1em;
+	}
+
+	.spanTitle {
+		margin-right:.5em;
+	}
+}
+
+@media (max-width: 350px) {
+	header {
+		height:13.25em;
+	}
+	.contentContainerAll {
+		padding: 12em 1em 1em 1em;
+	}
+}

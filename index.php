@@ -1,4 +1,3 @@
-
 <?php
 include(dirname( __FILE__ ).'/classes/Manage.class.php');
 include('config.php');
@@ -52,6 +51,14 @@ include('header.php');
  	$_GET['page'] = 'welcome';
  }
 
+if (isset($_GET['reset']))
+{
+  session_destroy();
+}
+
 // handling basic routing -- no need to use switch
 $filepath = BASE_PATH . '/controllers/' . preg_replace('#\W#', '', $_GET['page']) . '.controller.php';
-require_once($filepath);
+if (file_exists($filepath))
+{
+    require_once($filepath);
+}

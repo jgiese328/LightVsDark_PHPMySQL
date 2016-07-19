@@ -59,7 +59,7 @@
 				<h1>A Brighter Outlook</h1>
 				<p>You have chosen to side with the light for your mood, thoughts, and activities. Light is not constrained to being good and evil, it is just a different way of looking at, and reacting to the world.
 					Often this means choosing more active activities while having a more outgoing, positive attitude. The more enjoyment that can fit into a day, the better. Going biking, hanging out with friends, or meeting new people
-					are all enjoyable activities when choosing the light.
+					are all enjoyable activities when choosing the light.</p>
 
 			<div class = "contentContainer clearfix">
 				<h2>Sample Activities:</h2>
@@ -79,11 +79,13 @@
 
 				</div>
 			</div>
+
 			<div class = "contentContainer clearfix"><br/>
 				<h2>Next Step: Test Your Choice!</h2>
 				<div class="containerLeft width35">
 					<img class = "imgMain" src="img/biking.jpg" alt="biking" height="250em" width="335em">
 				</div>
+
 				<div class="containerRight width65">
 					<p>See how well your initial decision beween light and dark matches up to our survey by clicking on the <a href='index.php?page=survey'>survey</a> link.</p><br/>
 					<ul>
@@ -91,9 +93,11 @@
 						<li>Choices will touch on your mood, how is your outlook on life?</li>
 					</ul>
 				</div>
-			</div><br/>
-			<p>Remember to answer honestly and compare your results to others who have visited this site after submission.</p>
-			<br/><br/>
+			</div>
+      <br/>
+			<p>Remember to answer honestly and compare your results to others who have
+				 visited this site after submission.</p>
+			
 		</div>
 		<br/>
 		<form id = 'resetChoice' method='post'>

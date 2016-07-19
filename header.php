@@ -49,4 +49,3 @@ echo '
 					</ul>
 				</div>
 	</header>';
-?>

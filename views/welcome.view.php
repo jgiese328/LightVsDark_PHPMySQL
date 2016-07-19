@@ -97,7 +97,7 @@
       <br/>
 			<p>Remember to answer honestly and compare your results to others who have
 				 visited this site after submission.</p>
-			
+
 		</div>
 		<br/>
 		<form id = 'resetChoice' method='post'>
@@ -108,7 +108,7 @@
 	</body>
 
 	<?php } else { ?>
-		<div class="contentContainerAll">
+		<div class="contentContainerAll clearfix">
 
 				<h1>Choose Your Side</h1>
 				<p>When choosing sides  between dark and light, do not think of them as good and evil, but as a different way of preferring to live life.

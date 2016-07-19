@@ -221,33 +221,41 @@ img {
 	header {
 		height:6em;
 	}
+	.contentContainerAll {
+		padding: 10em 1em 1em 1em;
+	}
+
 	.containerLeft {
+		float:none;
 		margin:auto;
+		display: block;
 	}
 
 	.containerRight {
+		float:none;
 		margin:auto;
+		display: block;
 	}
 
 	.linksContainer {
 	float: left;
 	}
 
-	.imgMain {
-    	width: 25em;
-    	height: auto;
+	.tableContainer {
+		margin: 0.5em 0;
 	}
 
-	.imgExercises {
-    	width: 30em;
-	}
-
-	.width25 {
-		width:100%;
+	.widthRadioDiv {
 		text-align:center;
+		width: 50%;
 	}
 
 	.width35 {
+		width:50%;
+		text-align:center;
+	}
+
+	.width50 {
 		width:100%;
 		text-align:center;
 	}
@@ -266,24 +274,30 @@ img {
 	}
 }
 
-@media (max-width: 695px) {
+@media (max-width: 665px) {
 	header {
 		height:10em;
 	}
 	.contentContainerAll {
-		padding: 9em 1em 1em 1em;
+		padding: 13em 1em 1em 1em;
 	}
 	.linksContainer ul li {
-		display: block;
-		text-align: left;
+		padding-top:0.4em;
+		display: inline-block;
 	}
 	.imgMain {
     	width: 20em;
     	height: auto;
 	}
-	.imgExercises {
-    	width: 20em;
+
+	.tableContainer {
+		margin: 1.5em 0;
 	}
+	.widthRadioDiv {
+		text-align:center;
+		width: 100%;
+	}
+
 		.hidden {
 		margin:auto 2em;
 	}
@@ -297,24 +311,16 @@ img {
 
 	header {
 		height:11.75em;
-
 	}
+
 	.contentContainerAll {
-		padding: 11em 1em 1em 1em;
+		padding: 16em 1em 1em 1em;
 	}
 
-	.containerLeft {
-		float:none
+	.linksContainer ul li {
+		display: block;
 	}
-	.containerRight {
-		float:none
-	}
-
 	.imgMain {
-    	width: 10em;
-	}
-
-	.imgExercises {
     	width: 10em;
 	}
 
@@ -332,6 +338,6 @@ img {
 		height:13.25em;
 	}
 	.contentContainerAll {
-		padding: 12em 1em 1em 1em;
+		padding: 18em 1em 1em 1em;
 	}
 }

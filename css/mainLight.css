@@ -262,6 +262,10 @@ img {
 	header {
 		height:6em;
 	}
+	.contentContainerAll {
+		padding: 10em 1em 1em 1em;
+	}
+
 	.containerLeft {
 		float:none;
 		margin:auto;
@@ -316,12 +320,11 @@ img {
 		height:10em;
 	}
 	.contentContainerAll {
-		padding: 9em 1em 1em 1em;
+		padding: 13em 1em 1em 1em;
 	}
 	.linksContainer ul li {
 		padding-top:0.4em;
 		display: inline-block;
-		text-align: left;
 	}
 	.imgMain {
     	width: 20em;
@@ -349,22 +352,23 @@ img {
 
 	header {
 		height:11.75em;
-
 	}
+
 	.contentContainerAll {
-		padding: 11em 1em 1em 1em;
+		padding: 16em 1em 1em 1em;
+	}
+
+	.linksContainer ul li {
+		display: block;
 	}
 	.imgMain {
     	width: 10em;
 	}
 
-	.linksContainer ul li  {
-		display: block;
-	}
-
 	.hidden {
 		margin:auto 1em;
 	}
+
 	.spanTitle {
 		margin-right:.5em;
 	}
@@ -375,6 +379,6 @@ img {
 		height:13.25em;
 	}
 	.contentContainerAll {
-		padding: 12em 1em 1em 1em;
+		padding: 18em 1em 1em 1em;
 	}
 }
